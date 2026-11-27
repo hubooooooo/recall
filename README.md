@@ -287,6 +287,7 @@ def weather_lookup(city: str, user_id: str = "") -> dict:
 | 部署与运维 | [deploy.md](docs/deploy.md) · [postgres-rls.md](docs/postgres-rls.md) · [langfuse.md](docs/langfuse.md) · [admin.md](docs/admin.md) |
 | 界面 | [DESIGN.md](DESIGN.md)（chat-only 单页，浅色，Geist 自托管） |
 | 第二大脑需求 | [第二大脑-需求.md](docs/第二大脑-需求.md) |
+| 第二大脑技术设计 | [第二大脑-技术设计.md](docs/第二大脑-技术设计.md) |
 
 ## 现状与边界
 
