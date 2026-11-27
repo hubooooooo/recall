@@ -1,6 +1,16 @@
+# Recall
+
+**个人第二大脑：把散落在抖音、B 站、X、YouTube、小宇宙的收藏串联成可回忆、可输出的知识体系。**
+
+> 状态：需求已对齐，开发中。完整需求见 [docs/第二大脑-需求.md](docs/第二大脑-需求.md)。
+>
+> 本项目复制自 [Personal-Agent](https://github.com/hubooooooo/Personal-Agent) 0.8.2 底座，此后独立演进。以下为底座原有说明，会随开发逐步更新。
+
+---
+
 <div align="center">
 
-# Personal Agent
+# Personal Agent（底座）
 
 **有长期记忆的个人助理底座**
 
@@ -281,6 +291,7 @@ def weather_lookup(city: str, user_id: str = "") -> dict:
 | 定时任务 | [schedules.md](docs/schedules.md) |
 | 部署与运维 | [deploy.md](docs/deploy.md) · [postgres-rls.md](docs/postgres-rls.md) · [langfuse.md](docs/langfuse.md) · [admin.md](docs/admin.md) |
 | 界面 | [DESIGN.md](DESIGN.md)（chat-only 单页，浅色，Geist 自托管） |
+| 第二大脑需求 | [第二大脑-需求.md](docs/第二大脑-需求.md) |
 
 ## 现状与边界
 
