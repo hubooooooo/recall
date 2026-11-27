@@ -5,9 +5,7 @@
 # compared against tests/golden/baseline.json. A safety failure can never be
 # averaged away by the overall pass rate.
 #
-# Runs on every push (main included) and PR. Deploys are manual: deploy-render.yml
-# (workflow_dispatch) re-runs this gate via workflow_call and its deploy job
-# `needs` it for the same commit.
+# Runs on every push (main included) and PR. Also callable via workflow_call.
 # Live mode (real vendor keys) is opt-in via "Run workflow" and repo secrets.
 name: Harness Golden
 

@@ -51,7 +51,9 @@ docker run --rm -p 8787:8787 -e KIMI_API_KEY=你的key personal-agent
 
 ## GitHub Actions（必需）
 
-部署必须通过门禁工作流 `.github/workflows/deploy-render.yml`，并在仓库 Secrets 中配置 `RENDER_API_KEY`（以及可选 `RENDER_SERVICE_ID`）。
+> Recall 运行在本地 Mac 上，已移除底座的 Render 部署工作流 `deploy-render.yml`。以下 Render 相关内容仅作底座参考。
+
+底座中，部署必须通过门禁工作流 `.github/workflows/deploy-render.yml`，并在仓库 Secrets 中配置 `RENDER_API_KEY`（以及可选 `RENDER_SERVICE_ID`）。
 
 ## 相关文件
 

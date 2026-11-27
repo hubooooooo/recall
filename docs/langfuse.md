@@ -133,6 +133,8 @@ Langfuse 未启用时写到 `DATA_DIR/golden_candidates/*.json`，可人工整�
 
 ## 10. 夜间 live 金标（GitHub Actions）
 
+> Recall 暂未启用此工作流（底座的 `golden-nightly.yml` 已移除，需要时从 Personal-Agent 复制回来并配置模型 Key）。
+
 `.github/workflows/golden-nightly.yml`：每天 03:17（北京时间）跑 live，每个 case 3 次；安全类必须 3/3 通过，质量按逐次通过率对比 `baseline.json`。
 需要的配置：
 

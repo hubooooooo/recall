@@ -22,7 +22,6 @@ LangGraph · FastAPI · 原生 JS 前端 · 可二次开发 · MIT
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-blue.svg)](Dockerfile)
 [![Version](https://img.shields.io/badge/version-0.8.2-informational.svg)](VERSION)
-[![Deploy to Render](https://img.shields.io/badge/Deploy-Render-46E3B7.svg)](https://render.com/deploy?repo=https://github.com/hubooooooo/Personal-Agent)
 
 [快速开始](#快速开始) · [它能做什么](#它能做什么) · [工作原理](#工作原理) · [多渠道接入](#多渠道接入) · [安全与隐私](#安全与隐私) · [二次开发](#二次开发)
 
@@ -104,10 +103,6 @@ uvicorn app.main:app --host 0.0.0.0 --port 8787
 docker build -t personal-agent .
 docker run --rm -p 8787:8787 -e AUTH_SECRET=换成随机串 -e KIMI_API_KEY=你的key personal-agent
 ```
-
-### Render 一键部署
-
-点上方 **Deploy to Render** 按钮，或在 Render 新建 Blueprint 选本仓库。免费实例没有持久盘，重启会清空 SQLite 数据，正式使用请挂盘。详见 [docs/deploy.md](docs/deploy.md)。
 
 ## 工作原理
 
